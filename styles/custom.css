@@ -1,0 +1,21 @@
+@media only screen and (max-width: 991px) {
+  .wsmenu-list {
+    overflow: scroll;
+    height: 100vh !important;
+  }
+}
+.slickmargin .slick-slide {
+  padding: 0 10px;
+}
+.slickmargin .slick-dots li button:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #d6d6d6;
+  opacity: 1;
+  border-radius: 50%;
+}
+.slickmargin .slick-dots li.slick-active button:before {
+  background: #869791;
+}
