@@ -49,14 +49,18 @@ const Header = ({
         <div className="wsmainfull menu clearfix">
           <div className="wsmainwp clearfix">
             {/* HEADER LOGO */}
-            {/* <div className="desktoplogo">
+            <div className="desktoplogo">
               <Link href="/demo-1">
                 <a className="logo-black">
-                  <img src="/images/logo-01.png" alt="header-logo" />
+                  <img src="/images/logo-white.png" alt="header-logo" />
                 </a>
               </Link>
-            </div> */}
-            {/* <div className="desktoplogo">
+            </div>
+         
+            {/* MAIN MENU */}
+            <nav className="wsmenu clearfix">
+              <div className="overlapblackbg" onClick={() => toggleFun()} />
+              <div className="desktoplogo">
               <Link href="/demo-1">
                 <a className="logo-white">
                   <img
@@ -69,11 +73,7 @@ const Header = ({
                   />
                 </a>
               </Link>
-            </div> */}
-            {/* MAIN MENU */}
-            <nav className="wsmenu clearfix">
-              <div className="overlapblackbg" onClick={() => toggleFun()} />
-
+            </div>
               <ul
                 className={`wsmenu-list ${
                   navHoverColor ? navHoverColor : "nav-skyblue-hover"
@@ -113,7 +113,7 @@ const Header = ({
                       className={`btn ${
                         btnCustomHover
                           ? btnCustomHover
-                          : "btn-tra-white orange-red-hover"
+                          : "btn-tra-green green-hover"
                       } last-link`}
                     >
                       Connect to a dentist
