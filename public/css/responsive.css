@@ -456,7 +456,7 @@
   .pricing-1-row, .pricing-2-row, .pricing-3-row { padding: 0; }
 
   .pricing-1-table { padding: 40px 25px 35px; }
-  .pricing-2-table { padding: 30px 25px 35px; }
+  /* .pricing-2-table { padding: 30px 25px 35px; } */
   .pricing-3-table { padding: 45px 25px; }
 
   .pricing-plan-title h6 { padding: 5px 12px; right: -3px; top: -5px; }
@@ -1265,7 +1265,7 @@
   .pricing-1-row .col, .pricing-2-row .col, .pricing-3-row .col { padding-left: 8px; padding-right: 8px; }
 
   .pricing-1-table { padding: 40px 20px 35px; }
-  .pricing-2-table { padding: 30px 20px 35px; }
+  /* .pricing-2-table { padding: 30px 20px 35px; } */
   .pricing-3-table { padding: 45px 18px; }
 
   .pricing-plan-title h6 { font-size: 0.95rem; right: -5px; }
@@ -2408,7 +2408,7 @@
 
   /* Pricing */
   .pricing-1-table { padding: 40px 20% 35px; margin-left: 6%; margin-right: 6%; }
-  .pricing-2-table { padding: 30px 15% 35px; margin-left: 6%; margin-right: 6%; }
+  .pricing-2-table {margin-left: 6%; margin-right: 6%; }
   .pricing-3-table { padding: 45px 15%; margin-left: 6%; margin-right: 6%; }
 
   .pricing-plan-title { text-align: left; }
@@ -4003,7 +4003,7 @@
   .pricing-1-row .col, .pricing-2-row .col { text-align: center; }
 
   .pricing-1-table { padding: 40px 35px 35px; margin-left: 3%; margin-right: 3%; }
-  .pricing-2-table { padding: 30px 40px 35px; margin-left: 3%; margin-right: 3%; }
+  .pricing-2-table { margin-left: 3%; margin-right: 3%; }
   .pricing-3-table { padding: 45px 40px; margin-left: 3%; margin-right: 3%; }
 
   .pricing-1-table.rel, .pricing-3-table.rel { margin-top: 15px; }

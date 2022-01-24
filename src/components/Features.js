@@ -7,7 +7,7 @@ const Features = () => {
           <div className="col-lg-10 col-xl-8">
             <div className="section-title title-01 mb-70">
               {/* Title */}
-              <h2 className="h2-md">How to get started?</h2>
+              <h2 className="h2-md capitalize">How to get started?</h2>
               {/* Text */}
               
             </div>
@@ -28,7 +28,7 @@ const Features = () => {
                   />
                 </div>
                 {/* Title */}
-                <p className="p-lg grey-text">1. Answer a few questions on your oral health</p>
+                <p className="p-lg grey-text  capitalize">1. Answer a few questions on your oral health</p>
                 {/* Text */}
               
               </div>
@@ -40,12 +40,12 @@ const Features = () => {
                 <div className="fbox-img">
                   <img
                     className="img-fluid"
-                    src="/images/img-22.png"
+                    src="/images/teeth-mouth.svg"
                     alt="feature-icon"
                   />
                 </div>
                 {/* Title */}
-                <p className="p-lg grey-text">2. Share images of your teeth and mouth</p>
+                <p className="p-lg grey-text  capitalize">2. Share images of your teeth and mouth</p>
                 {/* Text */}
               
               </div>
@@ -57,12 +57,12 @@ const Features = () => {
                 <div className="fbox-img ">
                   <img
                     className="img-fluid"
-                    src="/images/img-23.png"
+                    src="/images/report.svg"
                     alt="feature-icon"
                   />
                 </div>
                 {/* Title */}
-                <p className="p-lg grey-text">Complete Report Delivered to you</p>
+                <p className="p-lg grey-text  capitalize">3. Complete Report Delivered to you</p>
                 {/* Text */}
              
               </div>

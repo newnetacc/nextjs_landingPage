@@ -35,7 +35,7 @@ const Header = ({
         {/* MOBILE HEADER */}
         <div className="wsmobileheader clearfix">
           <span className="smllogo">
-            <img src="/images/logo-01.png" alt="mobile-logo" />
+            <img src="/images/logo.svg" alt="mobile-logo" />
           </span>
           <a
             id="wsnavtoggle"
@@ -50,9 +50,9 @@ const Header = ({
           <div className="wsmainwp clearfix">
             {/* HEADER LOGO */}
             <div className="desktoplogo">
-              <Link href="/demo-1">
+              <Link href="/">
                 <a className="logo-black">
-                  <img src="/images/logo-white.png" alt="header-logo" />
+                  <img src="/images/logo.svg" alt="header-logo" />
                 </a>
               </Link>
             </div>
@@ -61,13 +61,13 @@ const Header = ({
             <nav className="wsmenu clearfix">
               <div className="overlapblackbg" onClick={() => toggleFun()} />
               <div className="desktoplogo">
-              <Link href="/demo-1">
+              <Link href="/">
                 <a className="logo-white">
                   <img
                     src={`${
                       whiteLogo
-                        ? "/images/logo-white.png"
-                        : "/images/logo-02.png"
+                        ? "/images/logo.svg"
+                        : "/images/logo.svg"
                     }`}
                     alt="header-logo"
                   />

@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer-info mb-40">
               <img
                 className="footer-logo mb-25"
-                src="/images/logo-01.png"
+                src="/images/logo.svg"
                 alt="footer-logo"
               />
               <p className="p-md">

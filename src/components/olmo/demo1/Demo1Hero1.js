@@ -20,7 +20,7 @@ const Demo1Hero1 = () => {
               <div className="btns-group mb-20">
                 <a
                   href="#content-3"
-                  className="btn btn-orange-red tra-white-hover mr-15"
+                  className="btn btn-orange-red  mr-15"
                 >
                   Connect to a Dentist
                 </a>

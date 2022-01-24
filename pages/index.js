@@ -20,7 +20,7 @@ const Index = ({ reviews }) => {
       <Demo1content1 />
       <CustomersReviews reviews={reviews}/>
       <Faq />
-      <hr className="divider" />
+      {/* <hr className="divider" /> */}
       <Demo1content4 />
     </Layout>
   );

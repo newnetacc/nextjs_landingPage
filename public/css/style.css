@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #6c757d;
   line-height: 1.6666;
   font-weight: 400;
@@ -792,6 +792,9 @@ body {
 .bg-green {
   background-color: #0fbc49;
 }
+.bg-transparent-green {
+  background-color: #F1F8FA;
+}
 .bg-magenta {
   background-color: #562d57;
 }
@@ -1063,8 +1066,8 @@ h4,
 h5,
 h6 {
   color: #2f353e;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
   letter-spacing: -0.75px;
 }
 
@@ -1354,7 +1357,7 @@ ol.digit-list p {
 }
 
 .box-list p span {
-  font-weight: 500;
+  font-weight: 600;
   position: absolute;
   top: 0;
   right: 15px;
@@ -1373,7 +1376,7 @@ ol.digit-list p {
   color: #fff;
   font-size: 1.1rem;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
   padding: 16px 32px;
   border: 1px solid transparent;
   -webkit-border-radius: 50px;
@@ -1919,7 +1922,7 @@ ol.digit-list p {
 
 p.video-txt-lg {
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 5px;
 }
 
@@ -2398,7 +2401,7 @@ span.os-version {
 .section-id {
   display: block;
   font-size: 1.1875rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.5px;
   margin-bottom: 35px;
 }
@@ -2470,8 +2473,8 @@ span.os-version {
 .txt-400 {
   font-weight: 400;
 }
-.txt-500 {
-  font-weight: 500;
+.txt-600 {
+  font-weight: 600;
 }
 .txt-600 {
   font-weight: 600;
@@ -3304,7 +3307,7 @@ p.terms-txt a,
 .wsmenu > .wsmenu-list > li a.btn {
   font-size: 14px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: none;
   letter-spacing: 0;
   margin-top: 14px;
@@ -3392,7 +3395,7 @@ p.terms-txt a,
 .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a {
   color: #2c3e50;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 8px 0;
   transition: all 0.3s ease-in-out;
 }
@@ -3453,7 +3456,7 @@ p.terms-txt a,
 .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu ul.link-list > li > a {
   color: #656565;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 8px 0;
   transition: all 0.3s ease-in-out;
 }
@@ -3515,7 +3518,7 @@ p.terms-txt a,
 .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu .title p {
   font-size: 18px;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
   margin: 10px 0 10px 0;
   letter-spacing: 0;
 }
@@ -3722,7 +3725,7 @@ p.terms-txt a,
   position: relative;
   top: 1px;
   line-height: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .hero-logo-rounded img {
@@ -4553,7 +4556,7 @@ p.terms-txt a,
 .request-form-msg .loading {
   color: #00b2e4;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .request-form .error {
@@ -4657,7 +4660,7 @@ p.terms-txt a,
   color: #00b2e4;
   font-size: 17px;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* ==========================================================================
@@ -5255,7 +5258,7 @@ p.cb-header {
 .tabs-1 li span {
   font-size: 1.1rem;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .tabs-1 li p {
@@ -5893,18 +5896,18 @@ h2.statistic-number {
 .pricing-3-table {
   background-color: #fff;
   border: 1px solid #efefef;
-  padding: 45px 35px 40px;
+  /* padding: 45px 35px 40px; */
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
   -o-border-radius: 16px;
   border-radius: 16px;
-  -webkit-box-shadow: 0px 15px 20px 0px rgba(5, 5, 5, 0.05);
-  -moz-box-shadow: 0px 15px 20px 0px rgba(5, 5, 5, 0.05);
-  box-shadow: 0px 15px 20px 0px rgba(5, 5, 5, 0.05);
+  -webkit-box-shadow:0px 4px 10px 0px rgb(0 128 29 / 25%);
+  -moz-box-shadow:0px 4px 10px 0px rgb(0 128 29 / 25%);
+  box-shadow:0px 4px 10px 0px rgb(0 128 29 / 25%);
 }
 
 .pricing-2-table {
-  padding: 35px 40px 40px;
+  /* padding: 35px 40px 40px; */
 }
 
 .pricing-3-table {
@@ -5965,7 +5968,7 @@ h2.statistic-number {
 .pricing-plan span {
   font-size: 3.375rem;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -0.5px;
 }
 
@@ -5977,7 +5980,7 @@ h2.statistic-number {
 
 .pricing-plan sup {
   font-size: 2.25rem;
-  font-weight: 500;
+  font-weight: 600;
   top: -7px;
   right: 3px;
 }
@@ -5989,14 +5992,14 @@ h2.statistic-number {
 
 .pricing-3-table .pricing-plan sup {
   font-size: 2.875rem;
-  font-weight: 500;
+  font-weight: 600;
   top: -12px;
   right: 3px;
 }
 
 .pricing-3-table .pricing-plan sup.coins {
   font-size: 2.875rem;
-  font-weight: 500;
+  font-weight: 600;
   top: -25px;
   left: 1px;
 }
@@ -6068,8 +6071,8 @@ h2.statistic-number {
 
 .pricing-2-table .features {
   padding-top: 25px;
-  margin-top: 25px;
-  border-top: 1px solid #ccc;
+  /* margin-top: 25px; */
+  /* border-top: 1px solid #ccc; */
 }
 
 .pricing-3-table .features {
@@ -6089,7 +6092,7 @@ h2.statistic-number {
 
 .pricing-2-table .features p span,
 .pricing-3-table .features p span {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .features li.disabled-option {
@@ -6676,7 +6679,7 @@ span.release-date {
 
 span.release-date span {
   color: #666;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 20px;
 }
 
@@ -7220,7 +7223,7 @@ h5.posts-category {
 
 .author-senoff-txt h5.h5-lg {
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
@@ -7252,7 +7255,7 @@ h5.posts-category {
 
 .author-link a {
   color: #151515;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: underline;
 }
 
@@ -7349,7 +7352,7 @@ h5.posts-category {
 .comment-form p {
   color: #333;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 15px;
   padding-left: 8px;
   display: block;
@@ -7414,7 +7417,7 @@ h5.posts-category {
 .comment-form .loading {
   color: #00b2e4;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .comment-form .error {
@@ -7456,7 +7459,7 @@ h5.posts-category {
 #contacts-2 .contact-form p {
   color: #333;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 10px;
   padding-left: 10px;
 }
@@ -7559,7 +7562,7 @@ h5.posts-category {
 .contact-form .loading {
   color: #00b2e4;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 15px;
 }
 
@@ -7892,7 +7895,7 @@ img.footer-logo {
   margin-bottom: 0;
 }
 
-.terms-section span.txt-500 {
+.terms-section span.txt-600 {
   color: #151515;
 }
 
@@ -7909,7 +7912,7 @@ img.footer-logo {
 }
 
 .terms-box a {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* ==========================================================================
@@ -7919,7 +7922,7 @@ img.footer-logo {
 .page-link {
   color: #6c757d;
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   padding: 2px 10px;
   margin: 0 8px;
   background-color: transparent;
@@ -8020,12 +8023,17 @@ nav a#pull {
   background-color: #F7A312;
 }
 
+
 .gold-text {
   color: #F7A312 !important;
 }
 
 .red-text {
   color: #F78171 !important;
+}
+
+.bg-red {
+  background-color: #F78171;
 }
 
 .capitalize {
