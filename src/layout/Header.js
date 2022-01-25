@@ -35,7 +35,9 @@ const Header = ({
         {/* MOBILE HEADER */}
         <div className="wsmobileheader clearfix">
           <span className="smllogo">
+          <Link href="/">
             <img src="/images/logo.svg" alt="mobile-logo" />
+            </Link>
           </span>
           <a
             id="wsnavtoggle"
@@ -110,11 +112,7 @@ const Header = ({
                 <li className="nl-simple">
                   <Link href="#">
                     <a
-                      className={`btn ${
-                        btnCustomHover
-                          ? btnCustomHover
-                          : "btn-tra-green green-hover"
-                      } last-link`}
+                      className={`btn  btn-tra-green green-hover last-link`}
                     >
                       Connect to a dentist
                     </a>

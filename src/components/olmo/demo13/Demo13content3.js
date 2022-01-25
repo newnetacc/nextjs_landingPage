@@ -10,7 +10,7 @@ const Demo13content3 = () => {
           <div className="col-lg-10 col-xl-8">
             <div className="section-title title-01 mb-70">
               {/* Title */}
-              <h2 className="h2-md">
+              <h2 className="h2-md gold-text capitalize">
                 500+ board certified dentists with 4,000+ years experience
               </h2>
               {/* Text */}
@@ -36,9 +36,9 @@ const Demo13content3 = () => {
                 {/* Section ID */}
 
                 {/* Title */}
-                <h2 className="h2-xs">You're in safe hands</h2>
+                <h2 className="h2-xs capitalize green-text">You're in safe hands</h2>
                 {/* Text */}
-                <p className="p-lg">
+                <p className="p-lg capitalize">
                   Our industry leading dentists are trained in America's top
                   dental schools. Combined they have over 4,000 years experience
                   in dental practice
@@ -59,9 +59,9 @@ const Demo13content3 = () => {
                 {/* TEXT BOX */}
                 <div className="txt-box mb-20">
                   {/* Title */}
-                  <h5 className="h5-lg">100% secure and private</h5>
+                  <h5 className="h5-lg capitalize green-text">100% secure and private</h5>
                   {/* Text */}
-                  <p className="p-lg">
+                  <p className="p-lg capitalize">
                     We treat your information with the highest level of
                     confidentiality and security. Moru operates within
                     HIPAA-compliance guidance. We're committed to your privacy
@@ -71,9 +71,9 @@ const Demo13content3 = () => {
                 {/* TEXT BOX */}
                 <div className="txt-box">
                   {/* Title */}
-                  <h5 className="h5-lg">Dedicated to quality care</h5>
+                  <h5 className="h5-lg capitalize green-text">Dedicated to quality care</h5>
                   {/* List */}
-                  <p className="p-lg">
+                  <p className="p-lg capitalize">
                     We offer dental care under the highest standards of clinical
                     guidance. Our online dentists give advice, dianosis and
                     treatment options within these guidelines. All advice given

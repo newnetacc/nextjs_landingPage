@@ -28,7 +28,7 @@ const Demo12blog1 = () => {
                 <div className="hover-overlay">
                   <img
                     className="img-fluid"
-                    src="/images/blog/post-1-img.jpg"
+                    src="/images/blog/featured-post.jpg"
                     alt="blog-post-image"
                   />
                   <div className="item-overlay" />
@@ -66,7 +66,7 @@ const Demo12blog1 = () => {
                 <div className="hover-overlay">
                   <img
                     className="img-fluid"
-                    src="/images/blog/post-5-img.jpg"
+                    src="/images/blog/featured-post.jpg"
                     alt="blog-post-image"
                   />
                   <div className="item-overlay" />
@@ -104,7 +104,7 @@ const Demo12blog1 = () => {
                 <div className="hover-overlay">
                   <img
                     className="img-fluid"
-                    src="/images/blog/post-2-img.jpg"
+                    src="/images/blog/featured-post.jpg"
                     alt="blog-post-image"
                   />
                   <div className="item-overlay" />
