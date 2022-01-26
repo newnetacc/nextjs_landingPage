@@ -3,13 +3,15 @@ const Demo12cta11 = () => {
   return (
     <section id="cta-11" className="bg-snow cta-section division">
       <div className="container">
-        <div className="bg-tra-purple cta-11-wrapper">
+        <div className="bg-tra-grey cta-11-wrapper">
           <div className="row d-flex align-items-center">
             {/* CALL TO ACTION TEXT */}
             <div className="col-lg-7 col-lg-7">
               <div className="cta-11-txt">
                 {/* Title */}
-                <h2 className="h2-xs">Ready to Join OLMO?</h2>
+                <h2 className="h2-xs black-text">Ready to Join <span>
+                <img src="/images/logo-red.svg" alt="mobile-logo" />
+                  </span> </h2>
                 {/* Text */}
                 <p className="p-lg">
                   Donec vel sapien augue integer urna vel turpis cursus porta,
@@ -17,8 +19,8 @@ const Demo12cta11 = () => {
                 </p>
                 {/* Button */}
                 <Link href="/pricing">
-                  <a className="btn btn-violet-red tra-violet-red-hover">
-                    Get Started Now
+                  <a className="btn bg-red">
+                   View Pricing
                   </a>
                 </Link>
               </div>
@@ -27,11 +29,11 @@ const Demo12cta11 = () => {
             <div className="col-lg-5">
               <div className="text-end">
                 <div className="cta-11-img text-center">
-                  <img
-                    className="img-fluid"
-                    src="/images/img-25.png"
-                    alt="cta-image"
-                  />
+                <img
+                  className="img-fluid"
+                  src="/images/dental_care.svg"
+                  alt="content-image"
+                />
                 </div>
               </div>
             </div>

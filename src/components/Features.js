@@ -7,7 +7,7 @@ const Features = () => {
           <div className="col-lg-10 col-xl-8">
             <div className="section-title title-01 mb-70">
               {/* Title */}
-              <h2 className="h2-md">How to get started?</h2>
+              <h2 className="h2-md capitalize">How to get started?</h2>
               {/* Text */}
               
             </div>
@@ -20,15 +20,15 @@ const Features = () => {
             <div className="col">
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
-                <div className="fbox-img bg-whitesmoke-gradient">
+                <div className="fbox-img ">
                   <img
                     className="img-fluid"
-                    src="/images/img-21.png"
-                    alt="feature-icon"
+                    src="/images/oral-health.svg"
+                    alt="oral-health"
                   />
                 </div>
                 {/* Title */}
-                <h5 className="h5-md">1. Answer a few questions on your oral health</h5>
+                <p className="p-lg grey-text  capitalize">1. Answer a few questions on your oral health</p>
                 {/* Text */}
               
               </div>
@@ -37,15 +37,15 @@ const Features = () => {
             <div className="col">
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
-                <div className="fbox-img bg-whitesmoke-gradient">
+                <div className="fbox-img">
                   <img
                     className="img-fluid"
-                    src="/images/img-22.png"
+                    src="/images/teeth-mouth.svg"
                     alt="feature-icon"
                   />
                 </div>
                 {/* Title */}
-                <h5 className="h5-md">2. Share images of your teeth and mouth</h5>
+                <p className="p-lg grey-text  capitalize">2. Share images of your teeth and mouth</p>
                 {/* Text */}
               
               </div>
@@ -54,15 +54,15 @@ const Features = () => {
             <div className="col">
               <div className="fbox-8 mb-40 wow fadeInUp">
                 {/* Image */}
-                <div className="fbox-img bg-whitesmoke-gradient">
+                <div className="fbox-img ">
                   <img
                     className="img-fluid"
-                    src="/images/img-23.png"
+                    src="/images/report.svg"
                     alt="feature-icon"
                   />
                 </div>
                 {/* Title */}
-                <h5 className="h5-md">Complete Report Delivered to you</h5>
+                <p className="p-lg grey-text  capitalize">3. Complete Report Delivered to you</p>
                 {/* Text */}
              
               </div>

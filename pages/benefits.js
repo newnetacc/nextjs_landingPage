@@ -21,7 +21,7 @@ const Demo15 = ({reviews}) => {
      <CustomersReviews reviews={reviews}/>
       <Demo15brands1 />
       <Faq/>
-      <Demo15blog1 />
+      {/* <Demo15blog1 /> */}
       <Demo15cta11 />
     </Layout>
   );

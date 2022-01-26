@@ -12,25 +12,25 @@ const Demo1content1 = () => {
           <div className="col-lg-6 order-last order-lg-2">
             <div className="txt-block slim-column left-column wow fadeInRight">
               {/* Title */}
-              <h2 className="h2-xs">
+              <h2 className="h2-xs capitalize">
                 Online dental care is the latest trend in healthcare
               </h2>
               {/* List */}
               <ul className="simple-list">
                 <li className="list-item">
-                  <p className="p-lg">
+                  <p className="p-lg  capitalize">
                     Moru teledentistry has created the leading service! Works
                     around your schedule, and can reach patients in any part of
                     the world
                   </p>
                 </li>
                 <li className="list-item">
-                  <p className="p-lg">
+                  <p className="p-lg capitalize">
                     Patients can access their health records online at all times, making it convenient for flexible working, traveling across the country, or living abroad
                   </p>
                 </li>
                 <li className="list-item">
-                  <p className="p-lg">
+                  <p className="p-lg capitalize">
                     Moru Teledentistry guarantees privacy for patients who want to be able to have dental consultation or a second opinion with ease of access, minimal distruption and convenience
                   </p>
                 </li>
@@ -40,38 +40,11 @@ const Demo1content1 = () => {
           {/* END TEXT BLOCK */}
           {/* CB WRAPPER */}
           <div className="col-lg-6 order-first order-lg-2">
-            <div className="cb-wrapper">
-              {/* CB HOLDER */}
-              <div className="cb-holder wow fadeInLeft">
-                {/* CB BOX #1 */}
-                <div className="cb-single-box">
-                  <p className="p-lg cb-header">Dental Consultations</p>
-                  <h2 className="h2-title-xs statistic-number">
-                    <sup>+</sup>
-                    <Counter end={784} />
-                  </h2>
-                  <p className="p-md mt-5 ico-10">
-                    <span className="violet-red-color">
-                      <span className="flaticon-" /> 4.6%
-                    </span>
-                    vs last 7 days
-                  </p>
-                </div>
-              </div>
-              {/* END CB HOLDER */}
-              {/* CB SHAPE */}
-              <div className="cb-shape-1">
+          <div className="">
+              <div className="img-block right-column wow fadeInRight">
                 <img
                   className="img-fluid"
-                  src="/images/bg-shape-1.png"
-                  alt="content-image"
-                />
-              </div>
-              {/* CB SHAPE */}
-              <div className="cb-shape-2">
-                <img
-                  className="img-fluid"
-                  src="/images/bg-shape-2.png"
+                  src="/images/dental_care.svg"
                   alt="content-image"
                 />
               </div>

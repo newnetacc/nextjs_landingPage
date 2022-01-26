@@ -35,7 +35,9 @@ const Header = ({
         {/* MOBILE HEADER */}
         <div className="wsmobileheader clearfix">
           <span className="smllogo">
-            <img src="/images/logo-01.png" alt="mobile-logo" />
+          <Link href="/">
+            <img src="/images/logo.svg" alt="mobile-logo" />
+            </Link>
           </span>
           <a
             id="wsnavtoggle"
@@ -49,31 +51,31 @@ const Header = ({
         <div className="wsmainfull menu clearfix">
           <div className="wsmainwp clearfix">
             {/* HEADER LOGO */}
-            {/* <div className="desktoplogo">
-              <Link href="/demo-1">
+            <div className="desktoplogo">
+              <Link href="/">
                 <a className="logo-black">
-                  <img src="/images/logo-01.png" alt="header-logo" />
+                  <img src="/images/logo.svg" alt="header-logo" />
                 </a>
               </Link>
-            </div> */}
-            {/* <div className="desktoplogo">
-              <Link href="/demo-1">
+            </div>
+         
+            {/* MAIN MENU */}
+            <nav className="wsmenu clearfix">
+              <div className="overlapblackbg" onClick={() => toggleFun()} />
+              <div className="desktoplogo">
+              <Link href="/">
                 <a className="logo-white">
                   <img
                     src={`${
                       whiteLogo
-                        ? "/images/logo-white.png"
-                        : "/images/logo-02.png"
+                        ? "/images/logo.svg"
+                        : "/images/logo.svg"
                     }`}
                     alt="header-logo"
                   />
                 </a>
               </Link>
-            </div> */}
-            {/* MAIN MENU */}
-            <nav className="wsmenu clearfix">
-              <div className="overlapblackbg" onClick={() => toggleFun()} />
-
+            </div>
               <ul
                 className={`wsmenu-list ${
                   navHoverColor ? navHoverColor : "nav-skyblue-hover"
@@ -110,11 +112,7 @@ const Header = ({
                 <li className="nl-simple">
                   <Link href="#">
                     <a
-                      className={`btn ${
-                        btnCustomHover
-                          ? btnCustomHover
-                          : "btn-tra-white orange-red-hover"
-                      } last-link`}
+                      className={`btn  btn-tra-green green-hover last-link`}
                     >
                       Connect to a dentist
                     </a>

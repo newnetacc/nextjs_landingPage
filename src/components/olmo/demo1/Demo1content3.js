@@ -10,9 +10,10 @@ const Demo1content3 = () => {
           <div className="col-lg-10 col-xl-8">
             <div className="section-title title-01 mb-70">
               {/* Title */}
-              <h2 className="h2-md">
-                We're 2,500 Dentists strong & growing. We're serving people in
-                cities across the country
+              <h2 className="h2-md red-text capitalize">
+              We're 2,500 Dentists Strong &
+Growing. We're Serving People In
+Cities Across The Country
               </h2>
             </div>
           </div>
@@ -36,34 +37,34 @@ const Demo1content3 = () => {
                 {/* TEXT BOX */}
                 <div className="txt-box mb-20">
                   {/* Title */}
-                  <h5 className="h5-lg">No Insurance? No problem</h5>
+                  <h5 className="h5-lg capitalize">No Insurance? No problem</h5>
                   {/* Text */}
-                  <p className="p-lg">
+                  <p className="p-lg capitalize grey-text" >
                     Yep, we totally get that good teeth aren't a luxury.
                     Everyone deserves a care they need, and we'll make sure you
                     get the care you need at a price you can afford.
                   </p>
                 </div>
                 {/* TEXT BOX */}
-                <div className="txt-box mb-20">
+                <div className="txt-box mb-20 capitalize">
                   {/* Title */}
-                  <h5 className="h5-lg">
+                  <h5 className="h5-lg capitalize">
                     No commute, no hassle, and nobody knows you go to the
                     dentist
                   </h5>
                   {/* Text */}
-                  <p className="p-lg">
+                  <p className="p-lg capitalize  grey-text">
                     Save time by eliminating the dentist commute and scheduling
                     hassles. Connect to an online dentist in minutes, whenever
                     you need it.
                   </p>
                 </div>
                 {/* TEXT BOX */}
-                <div className="txt-box mb-20">
+                <div className="txt-box mb-20 capitalize">
                   {/* Title */}
-                  <h5 className="h5-lg">No hidden agenda or costs</h5>
+                  <h5 className="h5-lg capitalize">No hidden agenda or costs</h5>
                   {/* Text */}
-                  <p className="p-lg">
+                  <p className="p-lg capitalize grey-text">
                     Trusted advice and care thats about you, always. No hidden
                     agenda or costs. Whether you need a second opinion or an
                     in-depth treatment plan, you're in safe hands

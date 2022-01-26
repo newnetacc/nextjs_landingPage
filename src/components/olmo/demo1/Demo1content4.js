@@ -2,7 +2,7 @@ import Link from "next/dist/client/link";
 const Demo1content4 = () => {
   return (
     <section id="content-4" className="content-4 pt-80 content-section">
-      <div className="bg-inner bg-whitesmoke-gradient division">
+      <div className="">
         <div className="container">
           <div className="row d-flex align-items-center">
             {/* IMAGE BLOCK */}
@@ -10,8 +10,8 @@ const Demo1content4 = () => {
               <div className="content-4-img left-column wow fadeInRight">
                 <img
                   className="img-fluid"
-                  src="/images/img-01.png"
-                  alt="content-image"
+                  src="/images/keep-your-smile.svg"
+                  alt="keep your smile"
                 />
               </div>
             </div>
@@ -19,11 +19,11 @@ const Demo1content4 = () => {
             <div className="col-md-7 col-lg-6 order-first order-md-2">
               <div className="txt-block right-column wow fadeInLeft">
                 {/* Title */}
-                <h2 className="h2-xs">
+                <h2 style={{fontWeight:'bold'}} className="h2-xs red-text capitalize">
                   Make your life better. Keep your smile!
                 </h2>
                 {/* Text */}
-                <p className="p-lg">
+                <p className="p-lg capitalize">
                   Get a dental care anytime
                 </p>
                 {/* Buttons Group */}
@@ -34,7 +34,7 @@ const Demo1content4 = () => {
                     </a>
                   </Link>
                   <Link href="/pricing">
-                    <a className="btn btn-tra-grey tra-orange-red-hover">
+                    <a className="btn bg-red">
                       View Pricing
                     </a>
                   </Link>

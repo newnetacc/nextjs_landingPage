@@ -65,12 +65,12 @@ const VideoWithBtn = ({ id, extraClass, defText }) => {
       href="#"
       className={
         extraClass
-          ? extraClass
-          : "video-popup2 btn btn-md btn-transparent ico-20 ico-left"
+          ? extraClass + " gold-text"
+          : "video-popup2 btn btn-md gold-text btn-transparent ico-20 ico-left"
       }
       onClick={() => showVideo(id ? id : "7e90gBu4pas")}
     >
-      <span className="flaticon-play"></span>{" "}
+      <span className="flaticon-play gold-text "></span>{" "}
       {defText ? defText : "How it works?"}
     </a>
   );

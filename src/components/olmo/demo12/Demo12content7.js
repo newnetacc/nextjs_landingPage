@@ -12,11 +12,11 @@ const Demo12content7 = () => {
               {/* Section ID */}
 
               {/* Title */}
-              <h2 className="h2-xs">Get a great dental care anytime</h2>
+              <h2 className="h2-xs capitalize black-text">Get a great dental care anytime</h2>
               {/* List */}
-              <ul className="simple-list">
-                <li className="list-item">
-                  <p className="p-lg">
+              <ul className="">
+                <li className="">
+                  <p className="p-lg capitalize">
                     Our on-demand service lets you book a live video call with
                     one of our dentists 24 hours a day, 365 days a year. Whether
                     you're at work with time or need advice at 2 a.m., you can
@@ -25,7 +25,7 @@ const Demo12content7 = () => {
                   </p>
                 </li>
                 <li className="list-item">
-                  <p className="p-lg">
+                  <p className="p-lg capitalize">
                     No hidden costs - 100% satisfaction guaranteed!
                   </p>
                 </li>
@@ -39,7 +39,7 @@ const Demo12content7 = () => {
             <div className="content-7-img wow fadeInRight">
               <img
                 className="img-fluid"
-                src="/images/dashboard-05.png"
+                src="/images/dashboard-05.svg"
                 alt="content-image"
               />
             </div>
